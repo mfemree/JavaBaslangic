@@ -1,0 +1,2 @@
+Nesne olusturmaya ıhtıyac duymayacaksak bu class ları kullanıyoruz.
+Abstract ( soyut ) meyhodlarlar mutlaka child class'lar tarafindan override edileceginden, method body'sine ihtiyaclari yoktur
