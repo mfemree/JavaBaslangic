@@ -20,7 +20,7 @@ public class _06_IfElse {
         int uzunluk= passoword.length();
         boolean varMi= passoword.toLowerCase().contains("pass");
 
-        if (uzunluk >= 8 && uzunluk <=12 && varMi==false)  // !varMi
+        if (uzunluk >= 8 && uzunluk <=12 && varMi!=true)  // !varMi
             System.out.println("uygun");
         else System.out.println("uygun degil");
 

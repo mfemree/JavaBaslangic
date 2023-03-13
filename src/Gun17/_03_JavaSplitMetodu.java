@@ -6,6 +6,7 @@ public class _03_JavaSplitMetodu {
     public static void main(String[] args) {
 
         // Split: bir Stringi parcalara ayirmak demek
+        // split = bolmek, yarmak
         // kullanicidan alacaginiz cumleyi kelimelerine gore alt alta yazdiriniz.
 
         Scanner oku= new Scanner(System.in);

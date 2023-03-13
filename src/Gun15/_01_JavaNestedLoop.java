@@ -4,6 +4,7 @@ public class _01_JavaNestedLoop {
     public static void main(String[] args) {
 
         // asagidaki gorunumu tek yildiz kullanarak yazdiirniz
+
         // *****
         // *****
         // *****

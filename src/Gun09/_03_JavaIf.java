@@ -23,8 +23,5 @@ public class _03_JavaIf {
 
         if (sayi1==sayi2)
             System.out.print("sayi1 sayi2 esittir");
-
-
-
     }
 }

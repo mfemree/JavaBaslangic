@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _03_IfElseIf {
     public static void main(String[] args) {
 
-    // Soru : Kullanıcıdan  Fizik:90   şeklinde not bilgisini alınız.
+        // Soru : Kullanıcıdan  "   Fizik:90   "   şeklinde not bilgisini alınız.
         // >= 90 için A
         // >= 80 için B
         // >= 70 için C
@@ -18,9 +18,13 @@ public class _03_IfElseIf {
         String dersVeNot= oku.nextLine();
 
         int index= dersVeNot.indexOf(":");
-        int not= Integer.parseInt(dersVeNot.substring(index+1));
 
-       // int not2= Integer.parseInt(dersVeNot.replaceAll("[^0-9]" , "" ));// System.out.println(not2);
+        int not= Integer.parseInt(dersVeNot.substring(index+1));
+        // int not2= Integer.parseInt(dersVeNot.replaceAll("[^0-9]" , "" ));// System.out.println(not2);
+
+        String ders = dersVeNot.substring(0,index);
+
+        System.out.println("ders = " + ders);
 
         if ( not >= 90 )
             System.out.println("A");
@@ -39,10 +43,6 @@ public class _03_IfElseIf {
                 System.out.println("E");
 
             else System.out.println("F");
-
-
-
-
 
     }
 }

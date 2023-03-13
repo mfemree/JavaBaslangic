@@ -20,11 +20,10 @@ public class _06_JavaIf {
 
         // 2.yol
 
-        /*if (cumle.indexOf("a") !=-1)  // cumlede gecen a harfinin indeksi -1 degilse demek, demek ki cumlede a harfi var demektir.
+        if (cumle.indexOf("a") !=-1)  // cumlede gecen a harfinin indeksi -1 degilse demek, demek ki cumlede a harfi var demektir.
                                         // cunku cumlede bir a harfi varsa index pozitif bir index degeri verir.
                                        //  cumlede istenilen harf yok ise, index her zaman -1 degerini verir.
-
-        System.out.println("EVET");
+            System.out.println("EVET");
 
         if (cumle.indexOf("a") ==-1)  //
             System.out.println("HAYIR");
@@ -32,11 +31,11 @@ public class _06_JavaIf {
         // 3. yol
 
         boolean varMi= cumle.contains("a");
-        if (varMi == true)     // if (varMi)
+        if (varMi == true)
             System.out.println("EVET");
 
         if (varMi == false)
-            System.out.println("HAYIR");*/
+            System.out.println("HAYIR");
 
 
 

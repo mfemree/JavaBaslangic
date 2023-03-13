@@ -12,17 +12,18 @@ public class _03_JavaArray {
         double[] oranlar= new double[5];           // 5 tane double saklayabilen bir dizi degiskeni
 
         for (int i = 0; i <dizi.length; i++) {
-            System.out.println("dizi = " + dizi[i]);
+            System.out.println("dizi = " + dizi[i]);   // 0 0 0 0 0 -> int default degerini yazdirir
         }
         for (int i = 0; i <dizi2.length; i++) {
-            System.out.println("dizi2 = " + dizi2[i]);
+            System.out.println("dizi2 = " + dizi2[i]);  // 5, 6, 34, 77, 66
         }
         for (int i = 0; i < kelimeler.length; i++) {
-            System.out.println("kelimeler = " + kelimeler[i]);
+            System.out.println("kelimeler = " + kelimeler[i]);  // null null null null null -> string default degerini yazdirir
         }
         for (int i = 0; i < oranlar.length; i++) {
-            System.out.println("oranlar = " + oranlar[i]);
+            System.out.println("oranlar = " + oranlar[i]);  // 0.0 0.0 0.0 0.0 0.0 -> double default deger
         }
+
         for (int i = 0; i < dizi3.length; i++) {
             System.out.println("dizi3 = " + dizi3[i]);
         }

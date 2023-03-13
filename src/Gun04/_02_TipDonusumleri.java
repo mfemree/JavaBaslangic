@@ -8,7 +8,7 @@ public class _02_TipDonusumleri {
         byte ogrNot3 = 100;
         byte ogrNot4 = 98;
 
-        int toplam1 = ogrNot1; // byte i int in icine atabiliriz cunku byte < int oldugu icin veri kaybi olmaz.
+        int toplam1 = ogrNot1; // byte'i int in icine atabiliriz cunku byte < int oldugu icin veri kaybi olmaz.
                               // bu isleme ( GENISLETME - Widening Casting ) denir.
         int toplam2= ogrNot2;
         int toplam3= ogrNot3;
@@ -26,7 +26,7 @@ public class _02_TipDonusumleri {
         ogrNot3 = (byte) toplam3;
         ogrNot4 = (byte) toplam4;
 
-        byte ortalamaByte = (byte) ((ogrNot1 + ogrNot2 + ogrNot3 +ogrNot4) / 4 );
+        byte ortalamaByte =(byte) ((ogrNot1 + ogrNot2 + ogrNot3 +ogrNot4) / 4 );
 
 
         System.out.println("ortalamaInt = " + toplam1 +" "+ toplam2 +" "+ toplam3 +" "+ toplam4);

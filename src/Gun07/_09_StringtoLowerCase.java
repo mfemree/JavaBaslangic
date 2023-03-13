@@ -13,7 +13,9 @@ public class _09_StringtoLowerCase {
         System.out.println("m ile veya ME ile basliyor mu= " + text.toLowerCase().startsWith("me"));
 
         System.out.println("text = " + text); // kendisine atama yapmazsak kendisi degismez.
+                                              // Merhaba Dunya
         text= text.toLowerCase();
+        System.out.println("text = " + text);  // merhaba dunya
 
     }
 }

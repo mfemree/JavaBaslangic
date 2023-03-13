@@ -2,7 +2,7 @@ package Gun06;
 
 import java.util.Scanner;
 
-public class _01_Ornek {
+public class  _01_Ornek {
 
     public static void main(String[] args) {
 

@@ -12,9 +12,9 @@ public class _04_Ornek {
         System.out.print("adiniz= ");
         String ad= oku.nextLine();
 
-        Scanner okuyucu1=new Scanner(System.in);
+        Scanner oku2=new Scanner(System.in);
         System.out.print("soyadiniz= ");
-        String soyad= oku.next();
+        String soyad= oku2.next();
 
         System.out.println("ad = " + ad);
         System.out.println("soyad = " + soyad);

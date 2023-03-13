@@ -13,29 +13,25 @@ public class _08_IfElse {
         System.out.print("yan yana aralarinda bosluk birakarak 3 sayi giriniz= ");
         String sayilar= oku.nextLine();
 
-        int ilkBoslukIndex= sayilar.indexOf(" ");
-        String sayi1= sayilar.substring(0,ilkBoslukIndex);
+        int ilkBoslukIndex= sayilar.indexOf(" ");            // ılk bosluk
+        String sayi1Str= sayilar.substring(0,ilkBoslukIndex);
 
-        int bosluk2Index= sayilar.lastIndexOf(" ");
-        String sayi2= sayilar.substring(ilkBoslukIndex+1,bosluk2Index);
+        int bosluk2Index= sayilar.lastIndexOf(" ");      // 2.bosluk ( yani sonuncu bosluk )
+        String sayi2Str= sayilar.substring(ilkBoslukIndex+1,bosluk2Index);
 
-        String sayi3= sayilar.substring(bosluk2Index+1);
+        String sayi3Str= sayilar.substring(bosluk2Index+1);
 
-        System.out.println(sayi3);
+        int sayi1int= Integer.parseInt(sayi1Str);
+        int sayi2int= Integer.parseInt(sayi2Str);
+        int sayi3int= Integer.parseInt(sayi3Str);
 
-        int sayi1Str= Integer.parseInt(sayi1);
-        int sayi2Str= Integer.parseInt(sayi2);
-        int sayi3Str= Integer.parseInt(sayi3);
-
-        int toplam= sayi1Str+sayi2Str+sayi3Str;
+        int toplam= sayi1int+sayi2int+sayi3int;
 
 
        if ( toplam % 2 == 0)
             System.out.println("Toplam= " + toplam + " " + "ve sayiniz CIFTTIR");
         else
             System.out.println("Toplam= " + toplam + " " + " ve sayiniz TEKTIR");
-
-
 
     }
 }

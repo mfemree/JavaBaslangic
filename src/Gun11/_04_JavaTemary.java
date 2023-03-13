@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _04_JavaTemary {
     public static void main(String[] args) {
 
-        //Soru: Girilen sayı 50 den büyük ise 1 , değilse 0 değerini ekrana yazdırınız.
+        // Soru: Girilen sayı 50 den büyük ise 1 , değilse 0 değerini ekrana yazdırınız.
         // Ternary operatör ile yapınız.
 
         Scanner oku= new Scanner(System.in);
@@ -23,9 +23,8 @@ public class _04_JavaTemary {
 
         System.out.println((sayi>50) ? 1 : 0);
 
-        // ekrana yazilan sey her zaman string cinsinden oldugu icin " " isaretine gerek yok.
 
-
+        // ekrana yazilan sey her zaman string cinsinden oldugu icin, sayi yazdirmak istersek " " isaretine gerek duymayiz.
 
     }
 }

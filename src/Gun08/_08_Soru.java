@@ -12,13 +12,13 @@ public class _08_Soru {
 
         int sayi= oku.nextInt();
 
-        int kalan = (sayi % 2); // kalan 1 e esitse tektir.
+        int kalan = (sayi % 2);
+        System.out.println("kalan = " + kalan);  // yazilan sayiya gore kalan = 0 veya kalan = 1 olacak
 
-        System.out.print("Tek mi degil mi? = " + (kalan==1));
+        System.out.println("Tek mi degil mi? = " + (kalan==1));
 
         // 2. yontem
 
-        System.out.print("Tek mi degil mi? = " + (sayi%2==1));
-
+        System.out.println("Tek mi degil mi? = " + (sayi%2==1));
     }
 }

@@ -23,7 +23,7 @@ public class _08_Ornek {
 
         int sayiBagis3= Integer.parseInt(bagis3);
         int sayiBagis4= Integer.parseInt(bagis4);
-        int toplamBagis2 = (toplamBagis2= + sayiBagis3 + sayiBagis4);
+        int toplamBagis2 = sayiBagis3 + sayiBagis4;
 
         System.out.println(bagis3+bagis4);
         System.out.println("sayiBagis3 = " + sayiBagis3);

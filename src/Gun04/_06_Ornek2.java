@@ -9,7 +9,7 @@ public class _06_Ornek2 {
         // vucut kıtle ındexını de bularak yazdırınız ( kg/ boy*boy)
 
 
-        double agirlik= 63; // burda sayiyi 63 seklinde yazsak bile java bunu 63.0 olarak algilar
+        double agirlik= 63; // burda sayiyi 63 seklinde yazsak bile java bunu 63.0 olarak algilar  // 63.0
         int boy=168;
         double kitleIndex= agirlik / (boy*boy);
 

@@ -6,7 +6,7 @@ public class _03_JavaTemary {
 
     public static void main(String[] args) {
 
-        // kullaninin girecegi sayinin tem ki cift mi oldugunu yazdiriniz
+        // kullaninin girecegi sayinin tek ki cift mi oldugunu yazdiriniz
 
         Scanner oku= new Scanner(System.in);
         System.out.print("Saat giriniz= ");
@@ -18,18 +18,13 @@ public class _03_JavaTemary {
             System.out.println("tek");
 
 
-        String sonuc= ( sayi%2==0) ? "cift" : "tek";      // ? -> if     : -> else
+        String sonuc= (sayi%2==0) ? "cift" : "tek";      // ? -> if     : -> else
 
         System.out.println("sonuc= " +sonuc);
 
         // ya da
 
-        System.out.println(((sayi % 2 == 0 ) ? "cift" : "tek"));
-
-
-
-
-
+        System.out.println( sayi % 2 == 0  ? "cift" : "tek");
 
     }
 }

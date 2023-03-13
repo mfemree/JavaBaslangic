@@ -34,7 +34,7 @@ public class _05_Switch {
             case "T": System.out.println("toplam= " + (s1 + s2)); break;
             case "C": System.out.println("toplam= " + (s1 - s2)); break;
             case "P": System.out.println("toplam= " + (s1 * s2)); break;
-            case "B": System.out.println("toplam= " + ((double) s1 / s2)); break;
+            case "B": System.out.println("toplam= " + ( (double)s1 / s2)); break;
             default : System.out.println("hatali deger");
 
         }

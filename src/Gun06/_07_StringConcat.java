@@ -3,6 +3,8 @@ package Gun06;
 public class _07_StringConcat {
     public static void main(String[] args) {
 
+        // birlestirir ve sonuna ekler
+
         String s1= "Merhaba";
         String s2= "Dunya";
 

@@ -15,7 +15,6 @@ public class _09_JavaMethod {
 
         int [] dizi= new int[5];
 
-
         for (int i = 0; i < dizi.length; i++) {
 
             System.out.print( i + ".sayiyi giriniz= ");

@@ -12,7 +12,7 @@ public class _05_forLoop {
         System.out.print("bir sayi giriniz= ");
         int sayi = oku.nextInt();
 
-        int i = 1;
+        int i;
         long carpim = 1;
 
         for (i = 1; i <= sayi; i++) {

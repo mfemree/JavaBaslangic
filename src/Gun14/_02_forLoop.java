@@ -15,6 +15,7 @@ public class _02_forLoop {
         }
         System.out.println();
 
+
         // bunu for dongusu ile ise su sekilde yazariz
         // sayinin baslangici belli, kacta bitecegi belli, artis miktari belli
 
@@ -22,9 +23,6 @@ public class _02_forLoop {
 
             System.out.println("i= " + i);
         }
-
-
-
 
     }
 }

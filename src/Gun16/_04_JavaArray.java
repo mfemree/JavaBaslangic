@@ -8,7 +8,6 @@ public class _04_JavaArray {
         // kullanicidan alacaginiz 7 sayiyi aldiktan sonra
         // kac tanesinin ortalamadan buyuk oldugunu bulunuz
 
-
         Scanner oku= new Scanner(System.in);
 
         int[] sayilar= new int[6];

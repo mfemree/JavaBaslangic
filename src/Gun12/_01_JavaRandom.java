@@ -7,14 +7,11 @@ public class _01_JavaRandom {
 
         // 0-5 arası gibi sayılar ürettik, hep sıfırdan başladı
         // 4-9 arası nasıl ürettirirdim?
-        // Yöntem şu : önce aralık arasindaki fark kadar uretirdik yeni (9-4) arasi, yani 0-5 arasi uretiyor.
+        // Yöntem şu : önce aralık arasindaki fark kadar uretirdik yani (9-4) den, 0-5 arasi uretiyor.
         // sonra uretilmis sayıya min sayıyı ekleriz, uretimis sayi + 4
         //  (int)(Math.Random()*(max-min))+min
 
-        //Girilen max ve min aralığında random sayı ürettiririniz.
-
-
-        // girilen max ve min araliginda random sayi uretiniz
+        // Girilen max ve min aralığında random sayı ürettiririniz.
 
         Scanner oku= new Scanner(System.in);
         System.out.print("min= ");
@@ -23,12 +20,8 @@ public class _01_JavaRandom {
         System.out.print("max= ");
         int max= oku.nextInt();
 
-        int rdnSayi= (int)(Math.random()*(max-min))+min;
+        int rdnSayi=(int) (Math.random()*(max-min)+min);
         System.out.println("rdnSayi = " + rdnSayi);
-
-
-
-
 
 
     }

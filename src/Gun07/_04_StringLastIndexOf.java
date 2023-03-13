@@ -10,7 +10,7 @@ public class _04_StringLastIndexOf {
         String s1= "Merhaba";
 
         System.out.println("s1.indexOf(a) = " + s1.indexOf("a")); //4
-        System.out.println("s1.lastIndexOf(a) = " + s1.indexOf("a")); //6
+        System.out.println("s1.lastIndexOf(a) = " + s1.lastIndexOf("a")); //6
 
         // index her zaman tek sadece arama yonu degisir.
 

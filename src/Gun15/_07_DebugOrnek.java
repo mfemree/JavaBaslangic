@@ -7,7 +7,7 @@ public class _07_DebugOrnek {
 
         a= 1000;
 
-        a+=100;
+        a+=100; // a = a+100
 
         a+=5;
 

@@ -9,7 +9,7 @@ public class _05_EscapeCharacters {
         //  \b -> back-space bir karakter geri siler
         //  \" -> " tırnak yazmak için kullanılıyor
         //  \ -> \ yazılacak ekrana
-        //  \r -> satır başına geri gelir ve onceki satırı silip tekrar baştan yazar.
+        //  \r -> kendisinden onceki tum seyleri siler, satır başına gelir ve kendinden sonrakileri yazar.
 
         System.out.println("MerhabaDunya");    // MerhabaDunya
         System.out.println("Merhaba\nDunya");  // Merhaba alt satira gecer Dunya
@@ -24,6 +24,8 @@ public class _05_EscapeCharacters {
         System.out.println("45\\5=dokuz eder.");
         System.out.println("bir daha mi gelicez dunyaya\r\n\ndevamini getirin.");
 
+        System.out.println("merhaba \", \\\\ ");
+        System.out.print("ali baba\ranne");
 
     }
 }

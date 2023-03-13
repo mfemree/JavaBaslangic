@@ -13,5 +13,10 @@ public class _03_Ornek {
         String adSoyad= okuyucu.nextLine();             // okuma islemi bu noktada yapiliyor
 
         System.out.println("adiniz ve soyadiniz= " + adSoyad);  // verinin gercekten okunabildigini tekrar ekrana yazarak kontrol ettim.
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("adinizi soydinizi giriniz= ");
+        String adSoyad2 = scan.nextLine();
+        System.out.println(adSoyad2);
     }
 }

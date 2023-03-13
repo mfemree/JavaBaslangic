@@ -7,12 +7,14 @@ public class _03_forLoop {
         // 10 dan 0 dahl olan sayilari yazdiriniz. ( for dongusu ile )
 
 
-        int i=0;
+        int i;
 
         for ( i=0; i<=10; i++)
-            System.out.println("i= " + i);
+            System.out.println("i= " + i );
 
         // diger soru
+
+        System.out.println();
 
         for (i=10; i>=0; i--)
             System.out.println("i =" + i);

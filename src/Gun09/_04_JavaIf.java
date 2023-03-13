@@ -11,8 +11,9 @@ public class _04_JavaIf {
         System.out.print("bir sayi giriniz= ");
         int sayi= oku.nextInt();
 
-        if (sayi%2 !=0) // yani burda girilen sayi 0 dan farkli bir sey mi demis oluyoruz
-                        // yani - ve + degerleri sorgulatmis oluyoruz
+        if (sayi%2 != 0) // girilen sayinin 2 ye bolumunden kalan 0 degilse
+                         // - veya + farketmeksizin
+
             System.out.println("tek");
 
         if (sayi%2 ==0)
@@ -29,9 +30,6 @@ public class _04_JavaIf {
         if (kalan==0)
             System.out.println("Girilen sayı çifttir");
 */
-
-
-
 
     }
 }

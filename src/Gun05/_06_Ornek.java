@@ -10,7 +10,7 @@ public class _06_Ornek {
 
         Scanner oku=new Scanner(System.in);
 
-        System.out.print("Bir kenar giriniz= ");
+        System.out.print("Karenin bir kenarini giriniz= ");
         int kenar=oku.nextInt();
         int cevre= kenar + kenar + kenar + kenar;
         int alan= kenar * kenar;

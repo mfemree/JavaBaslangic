@@ -23,7 +23,7 @@ public class _05_JavaMethod {
     }
         public static void merhabaYaz(){
 
-            System.out.println("Merhaba Dunya");
+            System.out.println("Merhaba Dunya 2");
 
         }
     // Metodlar tekrarlayan kodlardan kurtulup bir kere yazıp sonra tekrar çağırmak için

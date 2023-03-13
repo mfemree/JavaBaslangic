@@ -29,7 +29,7 @@ public class _01_Break {
         }
 
         if ( arananRakam == 0 )
-        System.out.println("tam kare degildir");
+        System.out.println( sayi + " tam kare degildir");
 
         // 2.yontem
 
@@ -58,7 +58,7 @@ public class _01_Break {
 
         if ( tamKare == false )
 
-            System.out.println("tam kare degildir ");
+            System.out.println( sayi + " tam kare degildir ");
 */
 
 

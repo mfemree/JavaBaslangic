@@ -37,11 +37,12 @@ public class _03_JavaDataTypes {
         int intDeger = 250000;
         long longDeger = 2323232345454545L;
 
-        // ondaliki sayilar
+        // reel sayilar ( tam sayi + kesirli + rasyonel + irrasyonel + pi )
         // ondalikli sayilarda default DOUBLE dir.
 
-        double doubleDeger = 3.144545455567; // . dan sonra 16 hane ye kadar gider.
         float floatDeger = 3.14323F; // . dan sonra 7 hane ye kadar gider.
+        double doubleDeger = 3.14454545556; // . dan sonra 16 hane ye kadar gider.
+
         // büyük F küçük f farketmez.
 
         // karakter ve karakterler
@@ -57,6 +58,15 @@ public class _03_JavaDataTypes {
         System.out.println("floatDeger = " + floatDeger);
         System.out.println("basHarf = " + basHarf);
         System.out.println("isim = " + isim);
+
+
+        byte byteDefault;
+        short shortDefault;
+        int intDefault;
+        long longDefault;
+        float floatDefault;
+        double doubleDefault;
+        char charDefault;
 
     }
 }

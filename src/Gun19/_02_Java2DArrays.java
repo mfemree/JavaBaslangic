@@ -11,12 +11,12 @@ public class _02_Java2DArrays {
                 {4},
         };
 
-        System.out.println("satir miktari= " + tablo.length);
-        System.out.println("0. satirdaki sutun sayisi= " + tablo[0].length);
-        System.out.println("1. satirdaki sutun sayisi= " + tablo[1].length);
-        System.out.println("2. satirdaki sutun sayisi= " + tablo[2].length);
-        System.out.println("3. satirdaki sutun sayisi= " + tablo[3].length);
-        System.out.println("4. satirdaki sutun sayisi= " + tablo[4].length);
+        System.out.println("satir miktari= " + tablo.length);                  // 5
+        System.out.println("0. satirdaki sutun sayisi= " + tablo[0].length);   // 2
+        System.out.println("1. satirdaki sutun sayisi= " + tablo[1].length);   // 3
+        System.out.println("2. satirdaki sutun sayisi= " + tablo[2].length);   // 6
+        System.out.println("3. satirdaki sutun sayisi= " + tablo[3].length);   // 3
+        System.out.println("4. satirdaki sutun sayisi= " + tablo[4].length);   // 1
 
         // yazdirma bolumu
 

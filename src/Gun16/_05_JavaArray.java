@@ -16,16 +16,16 @@ public class _05_JavaArray {
 
                 String ilkKanal= kanallar[rastgele];
 
-                System.out.println("secilen ilk kanal= " + ilkKanal);
+               int rastgele2= (int) (Math.random() * kanallar.length); // 5 kadar 5 dahil
+
+                String ikinciKanal= kanallar[rastgele2];
 
 
         for (int i =0; i<kanallar.length; i++) {
 
-            if ( ilkKanal.length() == kanallar[i].length() ) {
-                continue;
-            }
-
+            if ( ilkKanal.equals(ikinciKanal)) continue;
         }
+
        }
 
          // devami

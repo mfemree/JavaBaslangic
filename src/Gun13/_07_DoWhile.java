@@ -13,7 +13,7 @@ public class _07_DoWhile {
         int toplam = 0;
 
         do { // döngü arası şart başta olmadığından
-            // en az 1 kez çalışır, kontrol sonda
+             // en az 1 kez çalışır, kontrol sonda
 
             System.out.print("sayı giriniz=");
             sayi = oku.nextInt();

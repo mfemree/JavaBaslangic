@@ -26,16 +26,5 @@ public class _08_JavaIf {
             System.out.println("DEGIL");
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

@@ -12,9 +12,8 @@ public class _07_StringStartsWith {
         System.out.println("text.startsWith(HC) = " + text.startsWith("HC"));
         System.out.println("text.startsWith(te) = " + text.startsWith("te"));
         System.out.println("text.startsWith(h) = " + text.startsWith("h"));
-
-
-
+        System.out.println("text.startsWith(\"h\") = " + text.startsWith("h"));
+        System.out.println("text.startsWith(\"H\") = " + text.startsWith("H"));
 
     }
 }

@@ -9,7 +9,7 @@ public class _01_StringEquals {
         String s1= "Merhaba";
         String s2= "MERHABA";
 
-        boolean esitMi= s1.equals(s2); // s1 esit mi s2 ye?
+        boolean esitMi= s1.equals(s2);               // s1 esit mi s2 ye?
         System.out.println("esit mi= " + esitMi );
 
         System.out.println("s1.equals(s2) = " + s1.equals(s2)); // Burda Merhaba ile MERHABA yi karsilastiriyor

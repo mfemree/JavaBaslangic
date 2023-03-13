@@ -22,7 +22,7 @@ public class _05_StringIndexOf {
 
 
         System.out.println("cumle.indexOf(a, 5) = " + cumle.indexOf("a",5)); //6
-        // virgulun anlami: a yı aramaya 5(dahil) nolu index ten sonra başla.
+        // virgulun anlami: a yı aramaya 5(dahil) a nolu index ten sonra başla.
 
     }
 }

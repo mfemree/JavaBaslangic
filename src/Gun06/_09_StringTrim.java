@@ -10,5 +10,8 @@ public class _09_StringTrim {
         System.out.println("text = ->" + text + "<-");
         System.out.println("text = ->" + text.trim() + "<-");
 
+        System.out.println("text = " + text);                  //  text =     Merhaba Dunya
+        System.out.println("text.trim() = " + text.trim());    //  text.trim() = Merhaba Dunya
+
     }
 }

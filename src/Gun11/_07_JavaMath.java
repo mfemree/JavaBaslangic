@@ -28,11 +28,5 @@ public class _07_JavaMath {
         int enBuyuk2= Math.max(a, Math.max(b,c));
         System.out.println("enBuyuk2 = " + enBuyuk2);
 
-
-
-
-
-
-
     }
 }
